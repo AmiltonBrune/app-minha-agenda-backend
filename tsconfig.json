@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@minha-agenda/application/*": ["src/application/*"],
+      "@minha-agenda/core/*": ["src/core/*"],
+      "@minha-agenda/domain/*": ["src/domain/*"],
+      "@minha-agenda/endpoints/*": ["src/endpoints/*"],
+      "@minha-agenda/infra/*": ["src/infra/*"],
+      "@minha-agenda/strategies/*": ["src/application/strategies/*"]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  }
+}
